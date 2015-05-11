@@ -1,0 +1,9 @@
+[
+  {
+    "name": "message-panel",
+    "title": "Message Box",
+    "width": 3,
+    "file": "panel.html",
+    "faIcon": "fa-newspaper-o"
+  }
+]

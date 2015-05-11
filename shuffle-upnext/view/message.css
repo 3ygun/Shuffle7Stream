@@ -1,0 +1,28 @@
+.title {
+    /* Set text style */
+    font-size: 30px;
+}
+
+.body {
+	/* Text stuff */
+	font-size: 25px;
+}
+
+.message-box {
+	/* Box stuff */
+	width: 550px;
+	height: 130px;
+
+	background-color: #505050;
+	border-width: 2px;
+	border-color: #000000;
+
+	/* Starts out hidden */
+	
+}
+
+body {
+	/* Font Coloring  */
+	color: #000000;
+	text-align: center;
+}
