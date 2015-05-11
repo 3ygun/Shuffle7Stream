@@ -11,7 +11,7 @@ var $hideMessage = $panel.find('#shuffle-message_hide');
 
 // Act upon a possible button press
 $showMessage.click(function() {
-	nodecg.sendMessage('showMessage', updateData());
+	nodecg.sendMessage('showMessage', updateMessageData());
 });
 $hideMessage.click(function() {
 	nodecg.sendMessage('hideMessage');
@@ -19,7 +19,7 @@ $hideMessage.click(function() {
 
 
 // Update data
-function updateData() {
+function updateMessageData() {
     return {
         'messageTitle': $('#shuffle-message_title').val(),
         'messageBody': $('#shuffle-message_body').val()

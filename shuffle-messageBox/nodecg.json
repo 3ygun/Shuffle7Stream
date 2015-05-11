@@ -1,5 +1,5 @@
 {
-    "name": "Message Box",
+    "name": "MessageBox",
     "version": "1.0.0",
     "nodecgDependency": "~0.5.0",
     "homepage": "davidsoller.me",

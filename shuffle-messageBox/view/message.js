@@ -17,9 +17,8 @@ nodecg.listenFor('hideMessage', function () {
 
 // The actions
 function showMessage(data) {
-	console.alert("penis");
-    $messageTitle.html("" + data.messageTitle);
-    $messageBody.html("" + data.messageBody);
+    $messageTitle.html("" + data.messageTitle.toUpperCase());
+    $messageBody.html("" + data.messageBody.toUpperCase());
 
 }
 
