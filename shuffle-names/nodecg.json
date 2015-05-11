@@ -1,0 +1,11 @@
+{
+    "name": "Name",
+    "version": "1.0.0",
+    "nodecgDependency": "~0.5.0",
+    "homepage": "davidsoller.me",
+    "authors": [
+        "David Soller"
+    ],
+    "description": "Just displays 2 names.",
+    "license": "MIT"
+}
