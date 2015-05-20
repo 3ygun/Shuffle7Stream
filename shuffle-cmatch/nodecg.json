@@ -1,0 +1,11 @@
+{
+    "name": "CurrentMatch",
+    "version": "1.0.0",
+    "nodecgDependency": "~0.5.0",
+    "homepage": "esi.gg",
+    "authors": [
+        "David Soller"
+    ],
+    "description": "Controls all of the match stats",
+    "license": "MIT"
+}
