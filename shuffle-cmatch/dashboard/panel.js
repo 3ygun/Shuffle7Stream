@@ -1,17 +1,17 @@
 'use strict';
 
 // Find the proper panel
-var $panel = $bundle.filter('.names-panel');
+var $panel = $bundle.filter('.cMatch-panel');
 
 
 // Find the buttons
-var $showNames = $panel.find('#shuffle-names_show');
-var $hideNames = $panel.find('#shuffle-names_hide');
+var $showNames = $panel.find('#shuffle-cMatch_show');
+var $hideNames = $panel.find('#shuffle-cMatch_hide');
 
 
 // Act upon a possible button press
 $showNames.click(function() {
-	nodecg.sendMessage('showNames', updateNamesData());
+	nodecg.sendMessage('showNames', updateMatchData());
 });
 $hideNames.click(function() {
 	nodecg.sendMessage('hideNames');
@@ -19,8 +19,13 @@ $hideNames.click(function() {
 
 
 // Update data
-function updateNamesData() {
+function updateMatchData() {
+    // Game can be 'm' or '4'
+    // Match can be '2' or '4'   
     return {
+        'game': $('input[name="gameTypes"]:checked').val(),
+        'match': $('input[name="matchType"]:checked').val(),
+        'title': $('#shuffle-match_title').val(),
         'leftName': $('#shuffle-names_left').val(),
         'rightName': $('#shuffle-names_right').val()
     };

@@ -4,13 +4,13 @@
 	<div class="ncg-label">Game Type</div>
 	<div class="radio">
 		<label>
-			<input type="radio" name="gameTypes" id="gameTypeMelee" value="melee" checked>
+			<input type="radio" name="gameTypes" id="gameTypeMelee" value="m" checked>
 			Melee
 		</label>
 	</div>
 	<div class="radio">
 		<label>
-			<input type="radio" name="gameTypes" id="gameTypeSmash4" value="smash4">
+			<input type="radio" name="gameTypes" id="gameTypeSmash4" value="4">
 			Smash 4
 		</label>
 	</div>
@@ -20,51 +20,60 @@
 	<div class="ncg-label">Match Type</div>
 	<div class="radio">
 		<label>
-			<input type="radio" name="matchType" id="1v1" value="1v1" checked>
+			<input type="radio" name="matchType" id="1v1" value="2" checked>
 			1 v 1
 		</label>
 	</div>
 	<div class="radio">
 		<label>
-			<input type="radio" name="matchType" id="2v2" value="2v2">
+			<input type="radio" name="matchType" id="2v2" value="4">
 			2 v 2
 		</label>
 	</div>
 
 
+	<!-- Match title -->
+	<div class="ncg-label">Match Title</div>
+	<div class="input-group">
+		<span class="input-group-addon">Match Title</span>
+	  	<input id="shuffle-match_title" type="text" placeholder="Melee Singles Finals (bo5)" class="form-control"/>
+	</div>
+	
+
 	<!-- Player Names -->
 	<div class="ncg-label">Player Name</div>
-	<!-- Left name entry -->
+		<!-- Left name entry -->
 	<div class="input-group">
 		<span class="input-group-addon">Left Name</span>
-	  <input id="shuffle-names_left" type="text" placeholder="Left Player(s)" class="form-control"/>
+	  	<input id="shuffle-names_left" type="text" placeholder="Left Player(s)" class="form-control"/>
 	</div>
-
-	<!-- Right name entry -->
+		<!-- Right name entry -->
 	<div class="input-group">
 		<span class="input-group-addon">Right Name</span>
-	  <input id="shuffle-names_right" type="text" placeholder="Right Player(s)" class="form-control"/>
+	  	<input id="shuffle-names_right" type="text" placeholder="Right Player(s)" class="form-control"/>
 	</div>
 	
 	
 	<!-- Charater portraits -->
 	<div>
-		<div class="input-group"></div>
+		<div class="input-group">
+			<!-- doing later : http://getbootstrap.com/css/#forms-controls -->
+		</div>
 	</div>
 	
 
 	<!-- Spacer -->
 	<div style="margin-bottom: 8px;"></div>
 
-	<!-- Determine if the names should show up -->
+	<!-- Determine whether to show the current match stuff -->
 	<div class="ncg-btn-group">
-	  <div class="btn-group btn-group-justified">
-	    <div class="btn-group">
-	      <button id="shuffle-names_show" type="button" class="btn btn-xs btn-success">Show</button>
-	    </div>
-	    <div class="btn-group">
-	      <button id="shuffle-names_hide" type="button" class="btn btn-xs btn-danger">Hide</button>
-	    </div>
-	  </div>
+	  	<div class="btn-group btn-group-justified">
+	    	<div class="btn-group">
+		      	<button id="shuffle-cMatch_show" type="button" class="btn btn-xs btn-success">Show</button>
+		    </div>
+		    <div class="btn-group">
+		      	<button id="shuffle-cMatch_hide" type="button" class="btn btn-xs btn-danger">Hide</button>
+		    </div>
+		</div>
 	</div>
 </div>

@@ -1,8 +1,14 @@
+.matchtitle {
+	font-size: 30px;
+}
+
+
 .name {
     /* Set text style */
     font-size: 30px;
     width: 450px;
     float: left;
+	color: #ffffff;
 
     /* Start the text hidden */
     /*opacity: 0;*/
