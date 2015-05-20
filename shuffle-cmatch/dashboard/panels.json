@@ -1,7 +1,7 @@
 [
   {
-    "name": "names-panel",
-    "title": "Name Changer",
+    "name": "cMatch-panel",
+    "title": "Current Match",
     "width": 3,
     "file": "panel.html",
     "faIcon": "fa-pencil-square-o"

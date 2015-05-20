@@ -1,21 +1,57 @@
 <div class="btn-group btn-group-justified">
 
-	<div>
-		
+	<!-- Game type -->
+	<div class="ncg-label">Game Type</div>
+	<div class="radio">
+		<label>
+			<input type="radio" name="gameTypes" id="gameTypeMelee" value="melee" checked>
+			Melee
+		</label>
+	</div>
+	<div class="radio">
+		<label>
+			<input type="radio" name="gameTypes" id="gameTypeSmash4" value="smash4">
+			Smash 4
+		</label>
+	</div>
+	
+	
+	<!-- Match type -->
+	<div class="ncg-label">Match Type</div>
+	<div class="radio">
+		<label>
+			<input type="radio" name="matchType" id="1v1" value="1v1" checked>
+			1 v 1
+		</label>
+	</div>
+	<div class="radio">
+		<label>
+			<input type="radio" name="matchType" id="2v2" value="2v2">
+			2 v 2
+		</label>
 	</div>
 
 
+	<!-- Player Names -->
+	<div class="ncg-label">Player Name</div>
 	<!-- Left name entry -->
 	<div class="input-group">
 		<span class="input-group-addon">Left Name</span>
-	  <input id="shuffle-names_left" type="text" placeholder="Left Player" class="form-control"/>
+	  <input id="shuffle-names_left" type="text" placeholder="Left Player(s)" class="form-control"/>
 	</div>
 
 	<!-- Right name entry -->
 	<div class="input-group">
 		<span class="input-group-addon">Right Name</span>
-	  <input id="shuffle-names_right" type="text" placeholder="Right Player" class="form-control"/>
+	  <input id="shuffle-names_right" type="text" placeholder="Right Player(s)" class="form-control"/>
 	</div>
+	
+	
+	<!-- Charater portraits -->
+	<div>
+		<div class="input-group"></div>
+	</div>
+	
 
 	<!-- Spacer -->
 	<div style="margin-bottom: 8px;"></div>
