@@ -5,15 +5,19 @@ var $panel = $bundle.filter('.cMatch-panel');
 
 
 // Find the buttons
-var $showNames = $panel.find('#shuffle-cMatch_show');
-var $hideNames = $panel.find('#shuffle-cMatch_hide');
+var $updateMatch = $panel.find('#shuffle-cMatch_update');
+var $showMatch = $panel.find('#shuffle-cMatch_show');
+var $hideMatch = $panel.find('#shuffle-cMatch_hide');
 
 
 // Act upon a possible button press
-$showNames.click(function() {
-	nodecg.sendMessage('showCMatch', updateMatchData());
+$updateMatch.click(function () {
+    nodecg.sendMessage('updateCMatch', updateMatchData());
 });
-$hideNames.click(function() {
+$showMatch.click(function () {
+	nodecg.sendMessage('showCMatch');
+});
+$hideMatch.click(function () {
 	nodecg.sendMessage('hideCMatch');
 });
 
