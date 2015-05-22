@@ -1,7 +1,15 @@
+@font-face {
+    font-family: "Gotham";
+    src: url(../../Gotham) format("truetype");
+}
+body { 
+    font-family: "Gotham", Arial;
+}
+
+
 .matchtitle {
 	font-size: 30px;
 }
-
 
 .name {
     /* Set text style */

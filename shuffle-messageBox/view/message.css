@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Gotham";
+    src: url(../../Gotham) format("truetype");
+}
+body { 
+    font-family: "Gotham", Arial;
+}
+
 .title {
     /* Set text style */
     font-size: 30px;
