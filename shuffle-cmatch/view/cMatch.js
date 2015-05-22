@@ -1,9 +1,9 @@
 'use strict';
 
-// Get the name areas
+// Get the update areas
+var $matchTitle = $('#matchTitle');
 var $leftName = $('#leftName');
 var $rightName = $('#rightName');
-var $matchTitle = $('#matchTitle');
 
 
 // Act upon the button presses
@@ -26,8 +26,8 @@ function showNames(data) {
 }
 
 function hideNames() {
-
-    // Update the name text
+    // Hide everything
+    $matchTitle.html (" ");
     $leftName.html(" ");
     $rightName.html(" ");
 }
