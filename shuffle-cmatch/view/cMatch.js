@@ -3,19 +3,22 @@
 // Get the name areas
 var $leftName = $('#leftName');
 var $rightName = $('#rightName');
+var $matchTitle = $('#matchTitle');
 
 
 // Act upon the button presses
-nodecg.listenFor('showNames', function (data) {
+nodecg.listenFor('showCMatch', function (data) {
     showNames(data);
 });
-nodecg.listenFor('hideNames', function () {
+nodecg.listenFor('showCMatch', function () {
     hideNames();
 });
 
 
 // The actions
 function showNames(data) {
+	// Update the title text
+	$matchTitle.html("" + data.title.toUpperCase());
 
     // Update the name text
     $leftName.html("" + data.leftName.toUpperCase());
