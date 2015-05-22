@@ -11,10 +11,10 @@ var $hideNames = $panel.find('#shuffle-cMatch_hide');
 
 // Act upon a possible button press
 $showNames.click(function() {
-	nodecg.sendMessage('showNames', updateMatchData());
+	nodecg.sendMessage('showCMatch', updateMatchData());
 });
 $hideNames.click(function() {
-	nodecg.sendMessage('hideNames');
+	nodecg.sendMessage('hideCMatch');
 });
 
 
