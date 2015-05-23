@@ -18,7 +18,7 @@ body {
 
 /* Title to Name Spacing */
 .toName-melee {
-   height: 1000px; 
+   height: 1040px; 
 }
 .toName-smash4 {
     height: 915px;
@@ -31,7 +31,7 @@ body {
     border: 10px solid yellowgreen;
 }
 .preNameSpacer-smash4 {
-    width: 350px;
+    width: 300px;
 	float: left; 
     border: 10px solid yellowgreen;
 }

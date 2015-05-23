@@ -22,8 +22,18 @@ nodecg.listenFor('updateBaseName-melee', function (data) {
     $leftName.html("" + data.leftName.toUpperCase());
     $rightName.html("" + data.rightName.toUpperCase());
 });
-
-// TODO - Smash 4 version
+nodecg.listenFor('updateBaseName-smash4', function (data) {
+    // Fix CSS
+	$toNS.removeClass("toName-melee toName-other").addClass("toName-smash4");
+    $preNS.removeClass("preNameSpacer-melee preNameSpacer-other").addClass("preNameSpacer-smash4");
+    $leftName.removeClass("nameWidth-melee nameWidth-other").addClass("nameWidth-smash4");
+	$centerNS.removeClass("centerNameSpacer-melee centerNameSpacer-other").addClass("centerNameSpacer-smash4");
+    $rightName.removeClass("nameWidth-melee nameWidth-other").addClass("nameWidth-smash4");
+    
+    // Update with the new names
+    $leftName.html("" + data.leftName.toUpperCase());
+    $rightName.html("" + data.rightName.toUpperCase());
+});
 
 /*
  *  Show Base Names
