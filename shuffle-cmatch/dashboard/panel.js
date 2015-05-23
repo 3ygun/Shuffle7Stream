@@ -31,6 +31,8 @@ function updateMatchData() {
         'match': $('input[name="matchType"]:checked').val(),
         'title': $('#shuffle-match_title').val(),
         'leftName': $('#shuffle-names_left').val(),
-        'rightName': $('#shuffle-names_right').val()
+        'rightName': $('#shuffle-names_right').val(),
+        'leftScore': $('#shuffle-leftScore').val(),
+        'rightScore': $('#shuffle-rightScore').val()
     };
 }
