@@ -22,25 +22,31 @@ body {
     height: 265px;
     width: 1px;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .toCam1Spacer-smash4 {
     height: 1035px;
     width: 1px;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .toCam2Spacer-melee1Cam {
     height: 580px;
     width: 1px;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .toCam2Spacer-melee2Cam {
     height: 300px;
     width: 1px;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .toCam2Spacer-smash4 {
+    width: 1px;
     float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 
 /* Pre Cam Spacers */
@@ -48,16 +54,19 @@ body {
     width: 1475px;
     float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .preCam1Spacer-smash4 {
-    width: 0px;
+    width: 1px;
     float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .preCam2Spacer-smash4 {
-    widows: 1140px;
+    width: 1140px;
     float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 
 /* Cam specific */

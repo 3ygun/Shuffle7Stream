@@ -22,11 +22,13 @@ body {
     width: 10px;
     float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .titleSpacer-smash4 {
     width: 200px;
     float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .title {
     padding-top: 1px;

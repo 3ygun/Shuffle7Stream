@@ -29,21 +29,25 @@ body {
     width: 25px;
 	float: left; 
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .preNameSpacer-smash4 {
     width: 300px;
 	float: left; 
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .centerNameSpacer-melee {
     width: 440px;
 	float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .centerNameSpacer-smash4 {
     width: 300px;
 	float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .nameWidth-melee {
     width: 450px;

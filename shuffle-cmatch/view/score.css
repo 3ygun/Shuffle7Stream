@@ -29,21 +29,25 @@ body {
     width: 500px;
 	float: left; 
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .preScoreSpacer-smash4 {
     width: 830px;
 	float: left; 
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .centerScoreSpacer-melee {
     width: 360px;
 	float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .centerScoreSpacer-smash4 {
     width: 150px;
 	float: left;
     border: 10px solid yellowgreen;
+    opacity: 0!important;
 }
 .scoreWidth {
     width: 30px;

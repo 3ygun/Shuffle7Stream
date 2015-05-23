@@ -42,7 +42,7 @@ nodecg.listenFor('updateCamName-melee2Cam', function (data) {
 nodecg.listenFor('updateCamName-smash4', function (data) {
     // Fix CSS
 	$toC1S.removeClass("toCam1Spacer-melee2Cam").addClass("toCam1Spacer-smash4");
-    $preC1S.removeClass("preCam1Spacer-melee").addClass("preCamSpacer-smash4");
+    $preC1S.removeClass("preCamSpacer-melee").addClass("preCam1Spacer-smash4");
     $cam1.removeClass("cam-melee").addClass("cam-smash4");
 	$toC2S.removeClass("toCam2Spacer-melee2Cam toCam2Spacer-melee1Cam").addClass("toCam2Spacer-smash4");
     $preC2S.removeClass("preCamSpacer-melee").addClass("preCam2Spacer-smash4");
