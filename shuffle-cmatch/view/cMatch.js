@@ -1,10 +1,5 @@
 'use strict';
 
-// Get the update areas
-var $matchTitle = $('#matchTitle');
-var $leftName = $('#leftName');
-var $rightName = $('#rightName');
-
 // Hold the local variables
 var $game = 'm';
 var $match = '2';
@@ -32,6 +27,10 @@ nodecg.listenFor('updateCMatch', function (data) {
             alert("Match was " + $match);
         }
     } else if ($game === '4') { // Smash 4
+        nodecg.sendMessage('updateTitle-smash4', data);
+        nodecg.sendMessage('updateBaseName-smash4', data);
+        nodecg.sendMessage('updateCamName-smash4', data);
+        
         if ($match === '2') {   // 1v1
             
         } else if ($match === '4') { // 2v2
@@ -65,12 +64,13 @@ nodecg.listenFor('showCMatch', function () {
         } else {                // Error
             alert("Match was " + $match);
         }
+        
+        nodecg.sendMessage('showCamName-smash4');
+        nodecg.sendMessage('showTitle');
+        nodecg.sendMessage('showBaseName');
     } else {
         alert("Game was " + $game);
     }
-    
-    
-    showCMatch(data);
 });
 
 nodecg.listenFor('hideCMatch', function () {
@@ -78,20 +78,3 @@ nodecg.listenFor('hideCMatch', function () {
     nodecg.sendMessage('hideBaseName');
     nodecg.sendMessage('hideCameName');
 });
-
-
-// The actions
-function showCMatch(data) {  
-
-	// Update the text
-	$matchTitle.html("" + data.title.toUpperCase());
-    $leftName.html("" + data.leftName.toUpperCase());
-    $rightName.html("" + data.rightName.toUpperCase());
-}
-
-function hideCMatch() {
-    // Hide everything
-    $matchTitle.html (" ");
-    $leftName.html(" ");
-    $rightName.html(" ");
-}
