@@ -9,50 +9,6 @@ body {
     font-family: "Gotham", Arial;
 	color: #ffffff;
 }
-.showText {
-    opacity: 1;
-}
-.hideText {
-    opacity: 0;
-}
-
-/* Title to Score Spacing */
-.toScores-melee {
-   height: 1040px; 
-}
-.toScores-smash4 {
-    height: 915px;
-}
-
-/* Name Stuff */
-.preScoreSpacer-melee {
-    width: 500px;
-	float: left; 
-    border: 10px solid yellowgreen;
-    opacity: 0!important;
-}
-.preScoreSpacer-smash4 {
-    width: 830px;
-	float: left; 
-    border: 10px solid yellowgreen;
-    opacity: 0!important;
-}
-.centerScoreSpacer-melee {
-    width: 360px;
-	float: left;
-    border: 10px solid yellowgreen;
-    opacity: 0!important;
-}
-.centerScoreSpacer-smash4 {
-    width: 150px;
-	float: left;
-    border: 10px solid yellowgreen;
-    opacity: 0!important;
-}
-.scoreWidth {
-    width: 30px;
-}
 .score {
-    font-size: 30px;
-    float: left;
+	font-size: 30px;
 }

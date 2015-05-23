@@ -9,6 +9,12 @@ body {
     font-family: "Gotham", Arial;
 	color: #ffffff;
 }
-.title {
-	font-size: 33px;
+.name {
+    font-size: 30px;
+}
+.leftName {
+	text-align: left;
+}
+.rightName {
+	text-align: right;
 }
