@@ -19,11 +19,13 @@ body {
 
 /* To Spacers */
 .toCam1Spacer-melee2Cam {
-    height: 275px;
+    height: 265px;
+    width: 1px;
     border: 10px solid yellowgreen;
 }
 .toCam1Spacer-smash4 {
     height: 1040px;
+    width: 1px;
     border: 10px solid yellowgreen;
 }
 .toCam2Spacer-melee1Cam {
@@ -32,7 +34,8 @@ body {
     border: 10px solid yellowgreen;
 }
 .toCam2Spacer-melee2Cam {
-    height: 285px;
+    height: 300px;
+    width: 1px;
     border: 10px solid yellowgreen;
 }
 .toCam2Spacer-smash4 {
@@ -42,7 +45,7 @@ body {
 
 /* Pre Cam Spacers */
 .preCamSpacer-melee {
-    width: 1490px;
+    width: 1475px;
     float: left;
     border: 10px solid yellowgreen;
 }

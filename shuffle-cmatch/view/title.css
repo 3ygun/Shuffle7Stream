@@ -19,7 +19,7 @@ body {
 
 /* Title Stuff */
 .titleSpacer-melee {
-    width: 25px;
+    width: 10px;
     float: left;
     border: 10px solid yellowgreen;
 }
@@ -29,6 +29,7 @@ body {
     border: 10px solid yellowgreen;
 }
 .title {
-	font-size: 30px;
+    padding-top: 1px;
+	font-size: 33px;
     float: left;
 }

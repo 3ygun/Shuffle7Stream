@@ -3,10 +3,10 @@
 // Get the update areas
 var $toC1S = $('#toCam1Spacer');
 var $preC1S = $('#preCam1Spacer');
-var $cam1 = $('cam1');
+var $cam1 = $('#cam1');
 var $toC2S = $('#toCam2Spacer');
 var $preC2S = $('#preCam2Spacer');
-var $cam2 = $('cam2');
+var $cam2 = $('#cam2');
 
 /*
  *	Update Base Names
