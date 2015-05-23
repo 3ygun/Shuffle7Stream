@@ -25,39 +25,23 @@ $updateMatch.click(function () {
         nodecg.sendMessage('updateTitle-melee', data);
         nodecg.sendMessage('updateBaseName-melee', data);
         nodecg.sendMessage('updateScore-melee', data);
-        
-        if ($match === '2') {   // 1v1
-            nodecg.sendMessage('updateCamName-melee1Cam', data);
-        } else if ($match === '4') { // 2v2
-            nodecg.sendMessage('updateCamName-melee2Cam', data);
-        } else {                // Error
-            alert("Match was " + $match);
-        }
+
     } else if ($game === '4') { // Smash 4
         nodecg.sendMessage('updateTitle-smash4', data);
         nodecg.sendMessage('updateBaseName-smash4', data);
-        nodecg.sendMessage('updateCamName-smash4', data);
         nodecg.sendMessage('updateScore-smash4', data);
         
-        if ($match === '2') {   // 1v1
-            
-        } else if ($match === '4') { // 2v2
-            
-        } else {                // Error
-            alert("Match was " + $match);
-        }
+
     } else {
         alert("Game was " + $game);
     }
 });
 $showMatch.click(function () {
-	nodecg.sendMessage('showScore');
     nodecg.sendMessage('showCamName');
     nodecg.sendMessage('showTitle');
     nodecg.sendMessage('showBaseName');
 });
 $hideMatch.click(function () {
-	nodecg.sendMessage('hideScore');
     nodecg.sendMessage('hideTitle');
     nodecg.sendMessage('hideBaseName');
     nodecg.sendMessage('hideCameName');
