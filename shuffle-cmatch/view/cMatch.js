@@ -47,13 +47,14 @@ nodecg.listenFor('showCMatch', function () {
     // Act upon the current settings
     if ($game === 'm') {        // Melee
         if ($match === '2') {   // 1v1
-            nodecg.sendMessage('showCamName-melee1Cam');
+        
         } else if ($match === '4') { // 2v2
-            nodecg.sendMessage('showCamName-melee2Cam');
+        
         } else {                // Error
             alert("Match was " + $match);
         }
         
+        nodecg.sendMessage('showCamName');
         nodecg.sendMessage('showTitle');
         nodecg.sendMessage('showBaseName');
     } else if ($game === '4') { // Smash 4
@@ -65,7 +66,7 @@ nodecg.listenFor('showCMatch', function () {
             alert("Match was " + $match);
         }
         
-        nodecg.sendMessage('showCamName-smash4');
+        nodecg.sendMessage('showCamName');
         nodecg.sendMessage('showTitle');
         nodecg.sendMessage('showBaseName');
     } else {
