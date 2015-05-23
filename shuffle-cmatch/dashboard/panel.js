@@ -9,13 +9,14 @@ var $showMatch = $panel.find('#shuffle-cMatch_show');
 var $hideMatch = $panel.find('#shuffle-cMatch_hide');
 
 // Hold the local variables
+var $data = updateMatchData();
 var $game = 'm';
 var $match = '2';
 
 // Act upon a possible button press
 $updateMatch.click(function () {
     // Update local variables
-    var $data = updateMatchData();
+    data = updateMatchData();
     $game = data.game;
     $match = data.match;
     
