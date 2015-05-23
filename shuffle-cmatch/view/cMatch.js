@@ -18,6 +18,7 @@ nodecg.listenFor('updateCMatch', function (data) {
     if ($game === 'm') {        // Melee
         nodecg.sendMessage('updateTitle-melee', data);
         nodecg.sendMessage('updateBaseName-melee', data);
+        nodecg.sendMessage('updateScore-melee', data);
         
         if ($match === '2') {   // 1v1
             nodecg.sendMessage('updateCamName-melee1Cam', data);
@@ -30,6 +31,7 @@ nodecg.listenFor('updateCMatch', function (data) {
         nodecg.sendMessage('updateTitle-smash4', data);
         nodecg.sendMessage('updateBaseName-smash4', data);
         nodecg.sendMessage('updateCamName-smash4', data);
+        nodecg.sendMessage('updateScore-smash4', data);
         
         if ($match === '2') {   // 1v1
             
@@ -54,6 +56,7 @@ nodecg.listenFor('showCMatch', function () {
             alert("Match was " + $match);
         }
         
+        nodecg.sendMessage('showScore');
         nodecg.sendMessage('showCamName');
         nodecg.sendMessage('showTitle');
         nodecg.sendMessage('showBaseName');
@@ -66,6 +69,7 @@ nodecg.listenFor('showCMatch', function () {
             alert("Match was " + $match);
         }
         
+        nodecg.sendMessage('showScore');
         nodecg.sendMessage('showCamName');
         nodecg.sendMessage('showTitle');
         nodecg.sendMessage('showBaseName');
@@ -75,6 +79,7 @@ nodecg.listenFor('showCMatch', function () {
 });
 
 nodecg.listenFor('hideCMatch', function () {
+    nodecg.sendMessage('hideScore');
     nodecg.sendMessage('hideTitle');
     nodecg.sendMessage('hideBaseName');
     nodecg.sendMessage('hideCameName');
