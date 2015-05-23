@@ -3,9 +3,17 @@
     font-family: "Gotham";
     src: url(../../Gotham) format("truetype");
 }
+
+/* Body & Show/Hide Pieces */
 body { 
     font-family: "Gotham", Arial;
 	color: #ffffff;
+}
+.showText {
+    opacity: 1;
+}
+.hideText {
+    opacity: 0;
 }
 
 
