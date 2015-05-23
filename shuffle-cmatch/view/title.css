@@ -18,8 +18,13 @@ body {
 
 
 /* Title Stuff */
-.title-melee {
+.titleSpacer-melee {
     width: 25px;
+    float: left;
+    border: 10px solid yellowgreen;
+}
+.titleSpacer-smash4 {
+    width: 300px;
     float: left;
     border: 10px solid yellowgreen;
 }
