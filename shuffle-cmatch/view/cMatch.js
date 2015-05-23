@@ -56,7 +56,7 @@ nodecg.listenFor('showCMatch', function () {
         }
         
         nodecg.sendMessage('showTitle');
-        nodecg.sendMessage('showBaseName-melee');
+        nodecg.sendMessage('showBaseName');
     } else if ($game === '4') { // Smash 4
         if ($match === '2') {   // 1v1
             
