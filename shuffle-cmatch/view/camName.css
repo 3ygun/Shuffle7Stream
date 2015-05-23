@@ -8,8 +8,7 @@
 body { 
     font-family: "Gotham", Arial;
 	color: #ffffff;
-    text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 .showText {
     opacity: 1;
@@ -21,38 +20,52 @@ body {
 /* To Spacers */
 .toCam1Spacer-melee2Cam {
     height: 275px;
+    border: 10px solid yellowgreen;
 }
 .toCam1Spacer-smash4 {
     height: 1040px;
+    border: 10px solid yellowgreen;
 }
 .toCam2Spacer-melee1Cam {
-    height: 600px;
+    height: 580px;
+    width: 1px;
+    border: 10px solid yellowgreen;
 }
 .toCam2Spacer-melee2Cam {
     height: 285px;
+    border: 10px solid yellowgreen;
 }
 .toCam2Spacer-smash4 {
     float: left;
+    border: 10px solid yellowgreen;
 }
 
 /* Pre Cam Spacers */
 .preCamSpacer-melee {
     width: 1490px;
     float: left;
+    border: 10px solid yellowgreen;
 }
 .preCam1Spacer-smash4 {
     width: 0px;
     float: left;
+    border: 10px solid yellowgreen;
 }
 .preCam2Spacer-smash4 {
     widows: 1340px;
     float: left;
+    border: 10px solid yellowgreen;
 }
 
 /* Cam specific */
 .cam-smash4 {
+    float: left;
     width: 290px;
 } 
 .cam-melee {
+    float: left;
     width: 310px;
+}
+.cam2-smash4 {
+    text-align: right;
 }

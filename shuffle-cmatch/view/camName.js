@@ -20,7 +20,7 @@ nodecg.listenFor('updateCamName-melee1Cam', function (data) {
     $cam1.removeClass("cam-smash4 cam-melee");
 	$toC2S.removeClass("toCam2Spacer-smash4 toCam2Spacer-melee2Cam").addClass("toCam2Spacer-melee1Cam");
     $preC2S.removeClass("preCam2Spacer-smash4").addClass("preCamSpacer-melee");
-    $cam2.removeClass("cam-smash4").addClass("cam-melee");
+    $cam2.removeClass("cam-smash4 cam2-smash4").addClass("cam-melee");
     
     // Update with the new names
     $cam1.html(" ");
@@ -33,7 +33,7 @@ nodecg.listenFor('updateCamName-melee2Cam', function (data) {
     $cam1.removeClass("cam-smash4").addClass("cam-melee");
 	$toC2S.removeClass("toCam2Spacer-smash4 toCam2Spacer-melee1Cam").addClass("toCam2Spacer-melee2Cam");
     $preC2S.removeClass("preCam2Spacer-smash4").addClass("preCamSpacer-melee");
-    $cam2.removeClass("cam-smash4").addClass("cam-melee");
+    $cam2.removeClass("cam-smash4 cam2-smash4").addClass("cam-melee");
     
     // Update with the new names
     $cam1.html("" + data.leftName.toUpperCase());
@@ -46,7 +46,7 @@ nodecg.listenFor('updateCamName-smash4', function (data) {
     $cam1.removeClass("cam-melee").addClass("cam-smash4");
 	$toC2S.removeClass("toCam2Spacer-melee2Cam toCam2Spacer-melee1Cam").addClass("toCam2Spacer-smash4");
     $preC2S.removeClass("preCam2Spacer-melee").addClass("preCamSpacer-smash4");
-    $cam2.removeClass("cam-melee").addClass("cam-smash4");
+    $cam2.removeClass("cam-melee").addClass("cam-smash4 cam2-smash4");
     
     // Update with the new names
     $cam1.html("" + data.leftName.toUpperCase());
