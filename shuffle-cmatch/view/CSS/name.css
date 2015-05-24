@@ -6,11 +6,12 @@
 
 /* Body & Show/Hide Pieces */
 body { 
-    font-family: "Gotham", Arial;
+    font-family: "Gotham", Impact;
 	color: #ffffff;
 }
 .name {
-    font-size: 30px;
+    font-size: 38px;
+    text-align: center;
 }
 .leftName {
 	text-align: left;
