@@ -1,0 +1,9 @@
+[
+  {
+    "name": "teamColor-panel",
+    "title": "TeamColor",
+    "width": 3,
+    "file": "panel.html",
+    "faIcon": "fa-pencil-square-o"
+  }
+]
